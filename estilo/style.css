@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --unica: 'Cardo';
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    padding-top: 40px;
+    color: white;
+    font-variant: small-caps;
+    
+    
+}
+
+header p {
+    padding-bottom: 50px;
+    color: white;
+    font-weight: bolder;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder
+}
+
+a:hover{   
+    text-decoration: underline;
+    width: bolder;
+
+}
+
+html, body{
+    font-family: 'Cardo';
+    min-height: 100vh
+}
+
+section > p{
+    width: 400px;
+    padding-bottom: 3em;
+    font-weight: bolder;
+    font-variant: small-caps
+}
+
+section.normal {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+
+section.imagem{
+    background-color: rgb(63, 61, 61);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(80, 76, 76, 0.274);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+section.imagem > p{
+    width: 400px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+section#img01{
+    background-image: url('../imagem/Free-download-Lil-Peep-Picture.png');
+    background-position: center;
+    
+    
+    
+}
+
+section#img02{
+    background-image: url('../imagem/Lil-Peep-PC-Wallpaper.jpg');
+    background-position: center left;
+
+}
